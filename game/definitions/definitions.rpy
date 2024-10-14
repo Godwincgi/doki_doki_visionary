@@ -146,7 +146,7 @@ init python:
 # Example: 
 #   define audio.t2 = "bgm/2.ogg"
 
-define audio.t1 = "mod_assets/music/calmindierock.ogg" # Calm Indie Rock
+define audio.t1 = "audio/music/calmindierock.ogg" # Calm Indie Rock
 define audio.t2 = "<loop 4.499>bgm/2.ogg" # Ohayou Sayori! - Sayori Theme
 define audio.t2g = "bgm/2g.ogg"
 define audio.t2g2 = "<from 4.499 loop 4.499>bgm/2.ogg"
@@ -193,9 +193,6 @@ define audio.closet_open = "sfx/closet-open.ogg"
 define audio.closet_close = "sfx/closet-close.ogg"
 define audio.page_turn = "sfx/pageflip.ogg"
 define audio.fall = "sfx/fall.ogg"
-
-define audio.hover_menu = "mod_assets/sfx/hover.wav"
-define audio.select_menu = "mod_assets/sfx/select.wav"
 
 ## Backgrounds
 # This section declares the backgrounds available to be shown in the mod.
@@ -1303,89 +1300,6 @@ image yuri dragon:
     time 0.55
     xoffset 0
     "yuri 3"
-
-# Monika's Character Definitions
-#Mine
-image monika_side 1 = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/a.png")
-image monika_side 2 = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/a.png")
-image monika_side 3 = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/a.png")
-image monika_side 4 = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/a.png")
-
-image monika_side 1a = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/a.png")
-image monika_side 1b = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/b.png")
-image monika_side 1c = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/c.png")
-image monika_side 1d = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/d.png")
-image monika_side 1e = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/e.png")
-image monika_side 1f = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/f.png")
-image monika_side 1g = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/g.png")
-image monika_side 1h = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/h.png")
-image monika_side 1i = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/i.png")
-image monika_side 1j = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/j.png")
-image monika_side 1k = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/k.png")
-image monika_side 1l = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/l.png")
-image monika_side 1m = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/m.png")
-image monika_side 1n = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/n.png")
-image monika_side 1o = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/o.png")
-image monika_side 1p = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/p.png")
-image monika_side 1q = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/q.png")
-image monika_side 1r = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/r.png")
-
-image monika_side 2a = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/a.png")
-image monika_side 2b = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/b.png")
-image monika_side 2c = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/c.png")
-image monika_side 2d = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/d.png")
-image monika_side 2e = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/e.png")
-image monika_side 2f = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/f.png")
-image monika_side 2g = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/g.png")
-image monika_side 2h = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/h.png")
-image monika_side 2i = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/i.png")
-image monika_side 2j = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/j.png")
-image monika_side 2k = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/k.png")
-image monika_side 2l = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/l.png")
-image monika_side 2m = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/m.png")
-image monika_side 2n = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/n.png")
-image monika_side 2o = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/o.png")
-image monika_side 2p = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/p.png")
-image monika_side 2q = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/q.png")
-image monika_side 2r = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/1l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/r.png")
-
-image monika_side 3a = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/a.png")
-image monika_side 3b = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/b.png")
-image monika_side 3c = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/c.png")
-image monika_side 3d = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/d.png")
-image monika_side 3e = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/e.png")
-image monika_side 3f = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/f.png")
-image monika_side 3g = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/g.png")
-image monika_side 3h = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/h.png")
-image monika_side 3i = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/i.png")
-image monika_side 3j = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/j.png")
-image monika_side 3k = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/k.png")
-image monika_side 3l = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/l.png")
-image monika_side 3m = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/m.png")
-image monika_side 3n = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/n.png")
-image monika_side 3o = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/o.png")
-image monika_side 3p = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/p.png")
-image monika_side 3q = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/q.png")
-image monika_side 3r = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/1r.png", (0, 0), "../mod_assets/monika_poses/r.png")
-
-image monika_side 4a = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/a.png")
-image monika_side 4b = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/b.png")
-image monika_side 4c = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/c.png")
-image monika_side 4d = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/d.png")
-image monika_side 4e = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/e.png")
-image monika_side 4f = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/f.png")
-image monika_side 4g = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/g.png")
-image monika_side 4h = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/h.png")
-image monika_side 4i = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/i.png")
-image monika_side 4j = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/j.png")
-image monika_side 4k = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/k.png")
-image monika_side 4l = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/l.png")
-image monika_side 4m = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/m.png")
-image monika_side 4n = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/n.png")
-image monika_side 4o = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/o.png")
-image monika_side 4p = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/p.png")
-image monika_side 4q = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/q.png")
-image monika_side 4r = im.Composite((960, 960), (0, 0), "../mod_assets/monika_poses/2l.png", (0, 0), "../mod_assets/monika_poses/2r.png", (0, 0), "../mod_assets/monika_poses/r.png")
 
 #Original
 image monika 1 = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/1r.png", (0, 0), "monika/a.png")

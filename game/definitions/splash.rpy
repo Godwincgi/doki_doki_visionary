@@ -63,7 +63,7 @@ image splash_warning = ParameterizedText(style="splash_text", xalign=0.5, yalign
 
 # This image shows the DDLC logo in the normal DDLC position.
 image menu_logo:
-    "mod_assets/DDV2_logo.png"
+    "images/UI/DDV2_logo.png"
     # im.Composite((512, 512), (0, 0), recolorize("mod_assets/logo_bg.png"), (0, 0), "mod_assets/logo_fg.png")
     subpixel True
     xcenter 170
@@ -80,7 +80,7 @@ image menu_bg:
 
 image team_splash:
     topleft
-    "mod_assets/images/team_splash.png"
+    "images/UI/team_splash.png"
     xcenter 800
     ycenter 400
     zoom 0.50
@@ -176,7 +176,7 @@ image menu_fade:
 #
 # This image shows the main menu screen in the main/pause menu.
 image menu_nav:
-    "mod_assets/images/menu_background.png"
+    "images/UI/menu_background.png"
     #recolorize("gui/overlay/main_menu.png", "#00c100", "fff", 1.29)
     #menu_nav_move
 

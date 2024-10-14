@@ -12,8 +12,8 @@ init -2 python:
 
 ## GUI Sounds
 # These variables set the sound effects for the GUI elements in the game.
-define -2 gui.hover_sound = "mod_assets/sfx/hover.wav" # Hover Sound Effect
-define -2 gui.activate_sound = "mod_assets/sfx/select.wav" # Click Sound Effect
+define -2 gui.hover_sound = "audio/sfx/hover.wav" # Hover Sound Effect
+define -2 gui.activate_sound = "audio/sfx/select.wav" # Click Sound Effect
 define -2 gui.activate_sound_glitch = "gui/sfx/select_glitch.ogg" # Glitched Sound Effect
 
 ## Colors!
@@ -51,13 +51,13 @@ define -2 gui.interface_text_color = '#ffffff'
 # These variables set the font and its' size for DDLC's text in-game.
 
 # This font is used for in-game text.
-define -2 gui.default_font = "mod_assets/fonts/cafe.ttf"
+define -2 gui.default_font = "fonts/cafe.ttf"
 
 # This font is used for character names.
-define -2 gui.name_font = "mod_assets/fonts/comic.ttf"
+define -2 gui.name_font = "fonts/comic.ttf"
 
 # This font is used for out-of-game text.
-define -2 gui.interface_font = "mod_assets/fonts/nav_items.ttf"
+define -2 gui.interface_font = "fonts/nav_items.ttf"
 
 # The text size of normal dialogue text.
 define -2 gui.text_size = 25

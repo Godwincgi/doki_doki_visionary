@@ -154,7 +154,7 @@ style vslider:
 
 style frame:
     padding gui.frame_borders.padding
-    background Frame("mod_assets/images/frame_new.png", gui.frame_borders, tile=gui.frame_tile)
+    background Frame("images/UI/frame_new.png", gui.frame_borders, tile=gui.frame_tile)
     # background Frame(recolorize("gui/frame.png"), gui.frame_borders, tile=gui.frame_tile)
 
 ################################################################################
@@ -212,7 +212,7 @@ style window:
     yalign gui.textbox_yalign
     ysize gui.textbox_height
 
-    background Transform("mod_assets/images/textbox_new.png", xalign=0.5, yalign=1.0)
+    background Transform("images/UI/textbox_new.png", xalign=0.5, yalign=1.0)
 
 style window_monika is window:
     background Transform("gui/textbox_monika.png", xalign=0.5, yalign=1.0)
@@ -224,7 +224,7 @@ style namebox:
     ypos gui.name_ypos
     ysize gui.namebox_height
 
-    background Frame("mod_assets/images/namebox_new.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
+    background Frame("images/UI/namebox_new.png", gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
     padding gui.namebox_borders.padding
 
 style say_label:
@@ -336,9 +336,9 @@ screen choice(items):
                     $ arg2 = kwarg[-1]
                     
                     textbutton caption:
-                        idle_background Frame(im.MatrixColor(im.MatrixColor("mod_assets/images/choice_idle_background_new.png", im.matrix.desaturate() * im.matrix.contrast(1.29) * im.matrix.colorize("#00f", "#fff") * im.matrix.saturation(120)), 
+                        idle_background Frame(im.MatrixColor(im.MatrixColor("images/UI/choice_idle_background_new.png", im.matrix.desaturate() * im.matrix.contrast(1.29) * im.matrix.colorize("#00f", "#fff") * im.matrix.saturation(120)), 
                             im.matrix.desaturate() * im.matrix.colorize(arg1, arg2)), gui.choice_button_borders)
-                        hover_background Frame(im.MatrixColor(im.MatrixColor("mod_assets/images/choice_hover_background_new.png", im.matrix.desaturate() * im.matrix.contrast(1.29) * im.matrix.colorize("#00f", "#fff") * im.matrix.saturation(120)), 
+                        hover_background Frame(im.MatrixColor(im.MatrixColor("images/UI/choice_hover_background_new.png", im.matrix.desaturate() * im.matrix.contrast(1.29) * im.matrix.colorize("#00f", "#fff") * im.matrix.saturation(120)), 
                             im.matrix.desaturate() * im.matrix.colorize(arg1, "#fff")), gui.choice_button_borders)
                         action i.action
 
@@ -373,8 +373,8 @@ style choice_button is default:
     properties gui.button_properties("choice_button")
     hover_sound gui.hover_sound
     activate_sound gui.activate_sound
-    idle_background Frame("mod_assets/images/choice_idle_background_new.png", gui.choice_button_borders)
-    hover_background Frame("mod_assets/images/choice_hover_background_new.png", gui.choice_button_borders)
+    idle_background Frame("images/UI/choice_idle_background_new.png", gui.choice_button_borders)
+    hover_background Frame("images/UI/choice_hover_background_new.png", gui.choice_button_borders)
 
 style choice_button_text is default:
     properties gui.button_text_properties("choice_button")
@@ -731,7 +731,7 @@ style game_menu_outer_frame:
     bottom_padding 30
     top_padding 120
 
-    background "mod_assets/images/menu_background.png"
+    background "images/UI/menu_background.png"
     # background recolorize("gui/overlay/game_menu.png")
 
 style game_menu_navigation_frame:
@@ -757,7 +757,7 @@ style game_menu_label:
     ysize 120
 
 style game_menu_label_text:
-    font "mod_assets/fonts/nav_items.ttf"
+    font "fonts/nav_items.ttf"
     size gui.title_text_size
     color "#fff"
     #outlines [(4, text_outline_color, 0, 0), (2, text_outline_color, 2, 2)]
@@ -978,8 +978,8 @@ style page_button_text:
 
 style slot_button:
     properties gui.button_properties("slot_button")
-    idle_background Frame("mod_assets/images/slot_idle_background_new.png", gui.choice_button_borders)
-    hover_background Frame("mod_assets/images/slot_hover_background_new.png", gui.choice_button_borders)
+    idle_background Frame("images/UI/slot_idle_background_new.png", gui.choice_button_borders)
+    hover_background Frame("images/UI/slot_hover_background_new.png", gui.choice_button_borders)
 
 style slot_button_text:
     properties gui.button_text_properties("slot_button")
@@ -1814,7 +1814,7 @@ style confirm_button is gui_medium_button
 style confirm_button_text is gui_medium_button_text
 
 style confirm_frame:
-    background Frame("mod_assets/images/frame_new.png", gui.confirm_frame_borders, tile=gui.frame_tile)
+    background Frame("images/UI/frame_new.png", gui.confirm_frame_borders, tile=gui.frame_tile)
     # background Frame(recolorize("gui/frame.png"), gui.confirm_frame_borders, tile=gui.frame_tile)
     padding gui.confirm_frame_borders.padding
     xalign .5
