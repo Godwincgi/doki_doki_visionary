@@ -10,7 +10,7 @@ label chap_0:
     uk "Hey!"
     uk "Hey you!"
     scene bg class_day with dissolve
-    play music t2 
+    play music t2
     show sayori 4r at t11
     s "You're finally awake."
     show sayori 1a with dissolve
