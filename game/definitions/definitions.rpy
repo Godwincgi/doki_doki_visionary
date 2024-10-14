@@ -146,7 +146,7 @@ init python:
 # Example: 
 #   define audio.t2 = "bgm/2.ogg"
 
-define audio.t1 = "audio/music/calmindierock.ogg" # Calm Indie Rock
+define audio.t1 = "mod_assets/audio/music/calmindierock.ogg" # Calm Indie Rock
 define audio.t2 = "<loop 4.499>bgm/2.ogg" # Ohayou Sayori! - Sayori Theme
 define audio.t2g = "bgm/2g.ogg"
 define audio.t2g2 = "<from 4.499 loop 4.499>bgm/2.ogg"
