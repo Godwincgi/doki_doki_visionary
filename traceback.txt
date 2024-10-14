@@ -1,0 +1,40 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/definitions/splash.rpy", line 277, in script
+    init python:
+  File "game/definitions/splash.rpy", line 285, in <module>
+    restore_all_characters()
+  File "game/definitions/definitions.rpy", line 111, in restore_all_characters
+    restore_character(["monika", "sayori", "natsuki", "yuri"])
+  File "game/definitions/definitions.rpy", line 107, in restore_character
+    except: open(config.basedir + "/characters/" + x + ".chr", "wb").write(renpy.file("chrs/" + x + ".chr").read())
+OSError: Couldn't find file 'chrs/monika.chr'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/definitions/splash.rpy", line 277, in script
+    init python:
+  File "C:\Users\Rachael\Downloads\RenPy\renpy-8.2.0-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\Rachael\Downloads\RenPy\renpy-8.2.0-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/definitions/splash.rpy", line 285, in <module>
+    restore_all_characters()
+  File "game/definitions/definitions.rpy", line 111, in restore_all_characters
+    restore_character(["monika", "sayori", "natsuki", "yuri"])
+  File "game/definitions/definitions.rpy", line 107, in restore_character
+    except: open(config.basedir + "/characters/" + x + ".chr", "wb").write(renpy.file("chrs/" + x + ".chr").read())
+  File "C:\Users\Rachael\Downloads\RenPy\renpy-8.2.0-sdk\renpy\exports.py", line 2641, in file
+    return open_file(fn, encoding=encoding)
+  File "C:\Users\Rachael\Downloads\RenPy\renpy-8.2.0-sdk\renpy\exports.py", line 2623, in open_file
+    rv = renpy.loader.load(fn, directory=directory)
+  File "C:\Users\Rachael\Downloads\RenPy\renpy-8.2.0-sdk\renpy\loader.py", line 672, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'chrs/monika.chr'.
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.2.0.24012702
+Doki Doki Visionary 4.2.4–Py3
+Mon Oct 14 12:41:57 2024

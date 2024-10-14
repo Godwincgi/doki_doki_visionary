@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/screens.rpy", line 448: style property quick_button_text_insensitive_color is not known.
+    quick_button_text_insensitive_color "#f00"
+                                       ^
+
+Ren'Py Version: Ren'Py 8.2.0.24012702
+Mon Oct 14 00:01:10 2024
